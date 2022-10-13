@@ -65,5 +65,6 @@ Target 4 is found at index 0 in A.
 Explanation 2:
 
  
-Target 1 is found at index 0 in A.
+Tar get 1 is found at index 0 in A.
+tc  :- O(logn)
 '''
