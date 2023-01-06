@@ -88,6 +88,9 @@ class Solution:
         arr = [0]*26
         ans = 0
         for i in A:
+            # logic for not using 97, 97 = ascii of a (small a)
+            # arr[ord(i)-ord('a')] += 1
+            # if(arr[ord(i)-ord('a')] == 1):
             arr[ord(i)-97] += 1
             if(arr[ord(i)-97] == 1):
                 ans += 1
