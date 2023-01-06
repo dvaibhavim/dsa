@@ -55,6 +55,9 @@ Example Explanation
 Explanation 1:
 
  Rotate the given string twice so the string becomes "erscal".
+ 
+ time complexity :- O(n), n = length of A
+  space :- constant since output string is not counted
  */
 
  class Solution:
